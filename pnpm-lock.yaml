@@ -107,6 +107,9 @@ importers:
       '@qwikest/icons':
         specifier: ^0.0.8
         version: 0.0.8(@builder.io/qwik@1.2.10)
+      qwik-themes:
+        specifier: ^0.0.1
+        version: 0.0.1
       tailwind-variants:
         specifier: ^0.1.14
         version: 0.1.14(tailwindcss@3.3.3)
@@ -10238,6 +10241,11 @@ packages:
   /quick-lru@4.0.1:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
     engines: {node: '>=8'}
+    dev: false
+
+  /qwik-themes@0.0.1:
+    resolution: {integrity: sha512-fF3nXBYrJRxxZ8U3I4+A2y1PZ33k/UogpN6A5fb68CMCpijl3zDL3UQFXaiyGS4MIyREpTuTn0jAt5mC/qs25Q==}
+    engines: {node: '>=15.0.0'}
     dev: false
 
   /rc@1.2.8:
