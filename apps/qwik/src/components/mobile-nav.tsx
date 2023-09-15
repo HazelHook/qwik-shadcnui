@@ -6,7 +6,7 @@ import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 import type { PropFunction, QwikIntrinsicElements } from "@builder.io/qwik"
-import { $, component$, useSignal } from "@builder.io/qwik"
+import { component$, useSignal } from "@builder.io/qwik"
 import { useNavigate } from "@builder.io/qwik-city"
 import { TbMenu } from "@qwikest/icons/tablericons"
 

@@ -6,6 +6,8 @@ import { ThemeProvider } from "qwik-themes"
 
 import "./global.css"
 
+import "cal-sans"
+
 export default component$(() => {
 	/**
 	 * The root of a QwikCity site always start with the <QwikCityProvider> component,
@@ -22,7 +24,7 @@ export default component$(() => {
 				<RouterHead />
 			</head>
 			<body lang="en" class="min-h-screen bg-background font-sans antialiased">
-				<ThemeProvider attribute="class">
+				<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
 					<RouterOutlet />
 					<ServiceWorkerRegister />
 				</ThemeProvider>

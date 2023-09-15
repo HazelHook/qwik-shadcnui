@@ -41,6 +41,9 @@
 	"dependencies": {
 		"@hazix/primitives": "^0.0.28",
 		"@qwikest/icons": "^0.0.8",
+		"cal-sans": "^1.0.1",
+		"contentlayer": "0.3.4",
+		"date-fns": "^2.30.0",
 		"qwik-themes": "^0.0.1",
 		"tailwind-variants": "^0.1.14"
 	}
