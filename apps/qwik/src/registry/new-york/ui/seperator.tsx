@@ -1,6 +1,6 @@
-import { Separator as SeparatorPrimitive } from "@hazix/primitives"
-import { component$ } from "@builder.io/qwik"
 import { cn } from "@/lib/utils"
+import { component$ } from "@builder.io/qwik"
+import { Separator as SeparatorPrimitive } from "@hazix/primitives"
 import type { SeparatorProps } from "@hazix/primitives/lib-types/components/separator/separator"
 
 const Separator = component$<SeparatorProps>(

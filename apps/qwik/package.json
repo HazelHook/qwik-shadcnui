@@ -39,6 +39,7 @@
 		"vite-tsconfig-paths": "4.2.0"
 	},
 	"dependencies": {
+		"@hazix/primitives": "^0.0.28",
 		"@qwikest/icons": "^0.0.8",
 		"qwik-themes": "^0.0.1",
 		"tailwind-variants": "^0.1.14"

@@ -1,7 +1,7 @@
+import { cn } from "@/lib/utils"
 import { component$ } from "@builder.io/qwik"
 import { Switch as SwitchPrimitives } from "@hazix/primitives"
 import type { SwitchProps } from "@hazix/primitives/lib-types/components/switch"
-import { cn } from "@/lib/utils"
 
 const Switch = component$<SwitchProps>(({ class: classes, ...props }) => (
 	<SwitchPrimitives.Root

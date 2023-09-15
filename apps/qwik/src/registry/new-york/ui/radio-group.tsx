@@ -1,8 +1,8 @@
+import { cn } from "@/lib/utils"
 import { Slot, component$ } from "@builder.io/qwik"
 import { RadioGroup as RadioGroupPrimitive } from "@hazix/primitives"
 import type { RadioGroupItemProps, RadioGroupProps } from "@hazix/primitives/lib-types/components/radio-group"
 import { CheckTickIcon } from "../icons/pika/checkTick"
-import { cn } from "@/lib/utils"
 
 const RadioGroup = component$<RadioGroupProps>(({ class: classes, ...props }) => {
 	return (

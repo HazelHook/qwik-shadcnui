@@ -1,7 +1,7 @@
+import { cn } from "@/lib/utils"
 import type { QwikIntrinsicElements } from "@builder.io/qwik"
 import { Slot, component$ } from "@builder.io/qwik"
 import { Tooltip as PrimitiveTooltip } from "@hazix/primitives"
-import { cn } from "@/lib/utils"
 
 const Tooltip = PrimitiveTooltip.Tooltip
 

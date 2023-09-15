@@ -1,6 +1,6 @@
+import { cn } from "@/lib/utils"
 import type { QwikIntrinsicElements } from "@builder.io/qwik"
 import { Slot, component$ } from "@builder.io/qwik"
-import { cn } from "@/lib/utils"
 
 const Card = component$<QwikIntrinsicElements["div"]>(({ class: classes, ...props }) => (
 	<div class={cn("rounded-xl border bg-card text-card-foreground shadow", classes?.toString())} {...props}>

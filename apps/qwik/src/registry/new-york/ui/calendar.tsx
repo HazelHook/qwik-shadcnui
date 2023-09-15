@@ -1,10 +1,10 @@
 /** @jsxImportSource react */
 import { qwikify$ } from "@builder.io/qwik-react"
 
+import { cn } from "@/lib/utils"
 import * as React from "react"
 import { DayPicker } from "react-day-picker"
 import type { IconProps } from "../icons/pika/types"
-import { cn } from "@/lib/utils"
 import { buttonVariants } from "./button"
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>

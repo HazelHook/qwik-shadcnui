@@ -1,8 +1,8 @@
 import { component$ } from "@builder.io/qwik"
 
+import { cn } from "@/lib/utils"
 import { Progress as HazixProgress } from "@hazix/primitives"
 import type { ProgressProps as HazixProgressProps } from "@hazix/primitives/lib-types/components/progress"
-import { cn } from "@/lib/utils"
 
 const Progress = component$<HazixProgressProps>(({ class: classes, value, ...props }) => (
 	<HazixProgress.Root

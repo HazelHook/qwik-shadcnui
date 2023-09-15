@@ -1,6 +1,6 @@
-import { Avatar as HazixAvatar } from "@hazix/primitives"
 import { cn } from "@/lib/utils"
 import { Slot, component$ } from "@builder.io/qwik"
+import { Avatar as HazixAvatar } from "@hazix/primitives"
 import type { AvatarFallbackProps, AvatarImageProps, AvatarProps } from "@hazix/primitives/lib-types/components/avatar"
 
 const Avatar = component$<AvatarProps>(({ class: classes, ...props }) => (

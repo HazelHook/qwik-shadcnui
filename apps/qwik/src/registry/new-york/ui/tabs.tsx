@@ -1,7 +1,7 @@
+import { cn } from "@/lib/utils"
 import { Slot, component$ } from "@builder.io/qwik"
 import { Tabs as TabsPrimitive } from "@hazix/primitives"
 import type { TabPanelProps, TabProps, TabsProps } from "@hazix/primitives/lib-types/components/tabs"
-import { cn } from "@/lib/utils"
 
 const Tabs = TabsPrimitive.Root
 

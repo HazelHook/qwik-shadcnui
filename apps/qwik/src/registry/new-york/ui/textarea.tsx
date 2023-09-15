@@ -1,6 +1,6 @@
-import * as React from "react"
 import { cn } from "@/lib/utils"
-import { component$, type QwikIntrinsicElements } from "@builder.io/qwik"
+import { type QwikIntrinsicElements, component$ } from "@builder.io/qwik"
+import * as React from "react"
 
 export type TextareaProps = {} & Omit<QwikIntrinsicElements["textarea"], "children">
 

@@ -1,7 +1,7 @@
+import { cn } from "@/lib/utils"
 import { Slot, component$ } from "@builder.io/qwik"
 import { Popover as PopoverPrimitive } from "@hazix/primitives"
 import type { PopoverContentProps } from "@hazix/primitives/lib-types/components/popover/popover-content"
-import { cn } from "@/lib/utils"
 
 const Popover = PopoverPrimitive.Root
 
